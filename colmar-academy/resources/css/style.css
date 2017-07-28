@@ -1,0 +1,865 @@
+
+html{
+  font-size: 16px;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: #50535b;
+}
+
+/* DESKTOP */
+
+/* TEXT */
+
+/* font-family */
+
+.jumbotron-right .btn,
+.Author {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo-first-word,
+ #logo-second-word {
+  font-family: 'Dosis', sans-serif;
+}
+
+.jumbotron-right h1,
+h2{
+  font-family: 'Chivo', sans-serif;
+}
+
+/* font-size */
+
+.jumbotron-right h1{
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+#logo-first-word,
+#logo-second-word,
+.jumbotron-right h3,
+.jumbotron-right .btn {
+  font-size: 2rem;
+}
+
+.header-right-side li{
+  font-size: 1.5rem;
+}
+
+p,
+h3 {
+  font-size: 1.25rem;
+}
+
+.side-bar-wording a,
+h4,
+.start-learning-header-wording p{
+  font-size: 0.875rem;
+}
+
+footer p {
+  font-size: .625rem;
+}
+
+/* font-weight */
+
+.jumbotron-right h1{
+  font-weight: 900;
+}
+
+#logo-first-word {
+  font-weight: 800;
+}
+
+h3,
+h2{
+  font-weight: 700;
+}
+
+.Author {
+  font-weight: 600;
+}
+
+#logo-second-word {
+  font-weight: 500;
+}
+
+h4,
+.start-learning-header-wording p,
+footer p {
+  font-weight: 400;
+}
+
+#sign-in,
+.jumbotron-right .btn {
+  font-weight: 200;
+}
+
+#sign-in:hover,
+.jumbotron-right .btn {
+  font-weight: 100;
+}
+
+/* text - colour */
+
+#logo-first-word,
+#sign-in,
+h2,
+.side-bar-wording a {
+  color: #ef3934;
+}
+
+#logo-second-word,
+.jumbotron-right h1,
+h3,
+ul {
+  color: #282c36;
+}
+
+#sign-in:hover,
+.jumbotron-right .btn {
+  color: #fff;
+}
+
+footer {
+  color: #f6f6f7;
+}
+
+/* text - line-height */
+
+.jumbotron-right h1{
+  line-height: 5rem;
+}
+
+.jumbotron-right h3{
+  line-height: 3rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.side-bar-wording a,
+h4,
+h3,
+.start-learning-header-wording p,
+footer p {
+  line-height: 1.5rem;
+}
+
+/* text - align */
+
+h1,
+h2,
+h3,
+h4,
+.jumbotron-right,
+.side-bar-contianer,
+.thesis-exhibit-side-bar-contianer {
+  text-align: center;
+}
+
+.start-learning-header-wording h4,
+.start-learning-header-wording h3,
+.start-learning-header-wording p {
+  text-align: left;
+}
+
+/* text - other */
+
+.para-quote {
+  font-style: italic;
+}
+
+.side-bar-wording a,
+.jumbotron-right .btn {
+  text-decoration: none;
+}
+
+footer p {
+  opacity: 0.5;
+}
+
+/* flex */
+
+header,
+.main-section,
+.jumbotron,
+.side-bar-contianer,
+.side-bar-section-container,
+.start-learning-section-images,
+.thesis-exhibit-section,
+.thesis-exhibit-side-bar-contianer,
+.thesis-exhibit-side-bar-section-container,
+footer {
+  display: flex;
+}
+
+.header-left-side,
+.header-right-side li,
+.start-learning-subject{
+  display: inline-flex;
+}
+
+header,
+.header-left-side,
+.header-right-side li,
+.jumbotron,
+footer {
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.start-learning-section-images,
+.thesis-exhibit-side-bar-contianer {
+  justify-content: center;
+}
+
+.side-bar-contianer,
+.start-learning-subject,
+.thesis-exhibit-side-bar-contianer {
+  flex-direction: column;
+}
+
+.start-learning-section-images {
+  flex-wrap: wrap;
+}
+
+/* DISPLAY */
+
+/* height */
+
+header,
+footer {
+  height: 4rem;
+}
+
+/* width */
+
+.jumbotron,
+.main-section,
+.start-learning-section-images,
+.thesis-exhibit-section,
+footer {
+  max-width: 1920px;
+}
+
+/*
+.side-bar-image img,
+.jumbotron-image img,
+.main-section-image img {
+  width: 100%;
+}
+*/
+
+img,
+.side-bar-image,
+.start-learning-image {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+.static-width,
+.side-bar-wording,
+.thesis-exhibit-side-bar-wording {
+  width: 60%;
+}
+
+.jumbotron-right {
+  width: 30%;
+}
+
+.side-bar-section-container,
+.side-bar-image-container,
+.thesis-exhibit-side-bar-section-container,
+.thesis-exhibit-side-bar-image-container {
+  width: 423px;
+}
+
+.side-bar-image-container,
+.thesis-exhibit-side-bar-image-container {
+  width: 30%;
+}
+
+.start-learning-subject {
+  width: 25%;
+}
+
+/* margin */
+
+/*
+.jumbotron,
+.main-section {
+  margin: 0 auto;
+}
+*/
+
+.jumbotron-right h1,
+.jumbotron-right h3 {
+  margin-bottom: 2.5rem;
+}
+
+.side-bar-wording h3,
+.thesis-exhibit-side-bar-wording h3 {
+  margin: 2rem 0 0.5rem 0;
+}
+
+.start-learning-subject {
+  margin: 0rem 2rem 2.5rem 0;
+}
+
+.start-learning-subject:nth-child(3n+0) {
+  margin: 0rem 0rem 2.5rem 0;
+}
+
+/* padding */
+
+.jumbotron-left {
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.jumbotron-left,
+.main-section-left,
+.thesis-exhibit-left {
+  padding: 2rem 1.5rem;
+}
+
+h2,
+.Author {
+  padding: 2rem 0;
+}
+
+.side-bar-contianer,
+.side-bar-wording,
+.side-bar-image,
+.thesis-exhibit-side-bar-contianer,
+.thesis-exhibit-side-bar-wording,
+.thesis-exhibit-side-bar-image {
+  padding: 1rem 0rem;
+}
+
+.thesis-exhibit-wording h3 {
+  padding: 1.5rem 0;
+}
+
+header {
+  padding: 0 1.5rem;
+}
+
+.jumbotron-right .btn {
+  padding: 0.5rem;
+}
+
+.start-learning-header-wording h4 {
+  padding: 0.5rem 0rem;
+}
+
+#sign-in,
+#sign-in:hover,
+.jumbotron-right .btn {
+  padding: 0.3rem;
+}
+
+#thesis-exhibit-h2 {
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.start-learning-header-wording h3 {
+  padding-top: 1rem;
+}
+
+.header-right-side li{
+  padding-right: 1rem;
+}
+
+.start-learning-header-wording p {
+  padding-bottom: 1.5rem;
+}
+
+.side-bar-wording h4,
+.thesis-exhibit-side-bar-wording h4 {
+  padding-bottom: 1.5rem;
+}
+
+footer p {
+ padding-left: 1.5rem;
+}
+
+.jumbotron-right,
+.side-bar-contianer,
+.side-bar-wording,
+.start-learning-header-wording,
+.thesis-exhibit-side-bar-contianer,
+.thesis-exhibit-side-bar-wording {
+ padding-left: 1rem;
+}
+
+/* border */
+
+#sign-in,
+#sign-in:hover,
+.jumbotron-right .btn {
+  border: 1px solid #ef3934;
+  border-radius: 0.2rem;
+}
+
+.side-bar-contianer,
+.thesis-exhibit-side-bar-contianer{
+  border-left: 1px solid #e9e9ea;
+}
+
+/* background colour */
+
+#sign-in:hover,
+.jumbotron-right .btn {
+  background-color: #ef3934;
+}
+
+.jumbotron,
+.start-learning-section {
+  background-color: #f6f6f7;
+}
+
+.jumbotron,
+.start-learning-subject {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #282c36;
+}
+
+/* box shadow */
+
+.box-shadow {
+  box-shadow: 10px 10px 5px #50535b;
+}
+
+.box-shadow-smaller-images {
+  box-shadow: 0px 0px 5px #50535b;
+}
+
+/* box sizing */
+
+.side-bar-contianer,
+.thesis-exhibit-side-bar-contianer {
+  box-sizing: border-box;
+}
+
+/* transition */
+
+#sign-in:hover {
+  transition: color 200ms linear 100ms,
+  transition: background-color 200ms linear 100ms;
+}
+
+/* sundry display */
+
+.jumbotron-right .btn {
+  display: block;
+}
+
+.jumbotron,
+.main-section,
+.jumbotron-left,
+.start-learning-section-images,
+.thesis-exhibit-section {
+  position: relative;
+}
+
+.header-right-side-mobile,
+.side-bar-image-mobile,
+.start-learning-section-images-mobile {
+  display: none;
+}
+
+/* TABLET */
+
+@media only screen and (max-width: 1250px) {
+
+  /* TEXT */
+
+  /* font-size */
+
+  #logo-first-word,
+  #logo-second-word,
+  .jumbotron-right h3,
+  .jumbotron-right .btn {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .side-bar-wording a,
+  h4 {
+    font-size: 0.775rem;
+  }
+
+  .header-right-side li{
+    font-size: 1rem;
+  }
+
+  .start-learning-header-wording h3{
+    font-size: 1rem;
+  }
+
+  .start-learning-header-wording h4{
+    font-size: 0.8rem;
+  }
+
+  .start-learning-header-wording p{
+    font-size: 0.7rem;
+  }
+
+  /* text - line-height */
+
+  .jumbotron-right h1,
+  h2 {
+    line-height: 3rem;
+  }
+
+  .jumbotron-right h3{
+    line-height: 2rem;
+  }
+
+  p {
+    line-height: 1.5rem;
+  }
+
+  .side-bar-wording a,
+  h4,
+  h3,
+  .start-learning-header-wording p,
+  footer p {
+    line-height: 1.2rem;
+  }
+
+/* DISPLAY */
+
+/* transition */
+
+  * {
+    transition: font 300ms linear 0ms;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  /* TEXT */
+
+  /* font-size */
+
+  .jumbotron-right h1,
+  h2 {
+    font-size: 3rem;
+  }
+
+  .start-learning-section-images-mobile a {
+    font-size: 2rem;
+  }
+
+  h3,
+  .jumbotron-right .btn {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .side-bar-wording a {
+    font-size: 0.875rem;
+  }
+
+  /* font-weight */
+
+  .jumbotron-right h3 {
+    font-weight: 400;
+  }
+
+  /* text - colour */
+
+  .start-learning-section-images-mobile a,
+  .jumbotron-right h3 {
+    color: #50535b;
+  }
+
+  /* text - line-height */
+
+  .jumbotron-right h1,
+  h2 {
+    line-height: 3.5rem;
+  }
+
+  /* text - align */
+
+  .start-learning-section-images-mobile a {
+    text-align: center;
+  }
+
+  .jumbotron-right h1,
+  .jumbotron-right h3,
+  .side-bar-wording h3,
+  .side-bar-wording h4,
+  .side-bar-wording  {
+    text-align: left;
+  }
+
+  /* text - other */
+
+  .start-learning-section-images-mobile a {
+    text-decoration: none;
+  }
+
+  /* flex */
+
+  .start-learning-section-images-mobile,
+  .start-learning-section-images-mobile a,
+  .header-right-side-mobile {
+    display: flex;
+  }
+
+  .header-right-side-mobile ul{
+    display: inline-flex;
+  }
+
+  .start-learning-section-images-mobile,
+  .jumbotron {
+    flex-direction: column;
+  }
+
+  .start-learning-section-images-mobile a,
+  .header-right-side-mobile ,
+  .header-right-side-mobile ul {
+    align-items: center;
+  }
+
+  .start-learning-section-images-mobile a,
+  .jumbotron {
+    justify-content:flex-start;
+  }
+
+  .header-right-side-mobile {
+    justify-content: center;
+  }
+
+  .header-right-side-mobile ul{
+    justify-content: space-around;
+  }
+
+  /* DISPLAY */
+
+  /* height */
+
+  .jumbotron-image img {
+    height: 100%;
+  }
+
+  .jumbotron-image {
+    height: 25rem;
+  }
+
+  .start-learning-section-images-mobile a {
+    height: 6rem;
+  }
+
+  .header-right-side-mobile {
+    height: 4rem;
+  }
+
+  /* width */
+
+  .start-learning-section,
+  .start-learning-section-images-mobile a,
+  .side-bar-image-container,
+  .side-bar-wording,
+  .side-bar-section-container,
+  .side-bar-image-mobile,
+  .thesis-exhibit-video,
+  .static-width,
+  .header-right-side-mobile,
+  .header-right-side-mobile ul,
+  .header-right-side-mobile nav,
+  .jumbotron-left,
+  .jumbotron-right {
+    width: 100%;
+  }
+
+  .jumbotron-image img {
+    width: auto;
+  }
+
+  /* margin */
+
+  .start-learning a {
+    margin-right: 1rem;
+  }
+
+  .jumbotron-right {
+    margin: 2rem 0;
+  }
+
+  .start-learning-section-images-mobile a {
+    margin: 1rem 0rem;
+  }
+
+  .jumbotron-right .btn {
+    margin: 0rem 1rem;
+  }
+
+  .side-bar-wording h3 {
+    margin: 0;
+  }
+
+  .start-learning-section {
+    margin-bottom: 2rem;
+  }
+
+  .jumbotron-right h1,
+  .jumbotron-right h3 {
+    margin-bottom: 0;
+  }
+
+  /* padding */
+
+  #thesis-exhibit-h2 {
+    padding: 2rem 0rem;
+  }
+
+  .jumbotron-left,
+  .jumbotron-right {
+    padding: 0;
+  }
+
+  .jumbotron-image,
+  .jumbotron-right h1,
+  .jumbotron-right h3 {
+    padding: 0rem 1rem;
+  }
+
+  .side-bar-contianer {
+    padding-right: 1rem;
+  }
+
+  .start-learning-section-images-mobile a {
+    padding-left: 1rem;
+  }
+
+  .side-bar-wording,
+  .side-bar-wording h4 {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .jumbotron-right h3 {
+    padding: 2rem 1rem 1.5rem 1rem;
+  }
+
+  .start-learning-section {
+    padding: 0 1rem;
+  }
+
+/* background colour */
+
+  .main-section {
+    background-color: #f6f6f7;
+  }
+
+  .start-learning-section {
+    background-color: #fff;
+  }
+
+  .start-learning-section-images-mobile a {
+    background-color: hsla(0,0%,100%,.97);
+  }
+
+  /* box shadow */
+
+  .start-learning-section-images-mobile a {
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+  }
+
+  /* sundry display */
+
+  .side-bar-section-container,
+  .side-bar-image-mobile {
+    display: block;
+  }
+
+  .header-right-side,
+  .header-left-side,
+  .main-section-left,
+  .side-bar-image-desktop,
+  .start-learning-section-images,
+  .thesis-exhibit-side-bar-contianer,
+  .thesis-exhibit-wording {
+    display: none;
+  }
+
+  .start-learning-section-images-mobile a,
+  .start-learning-section {
+    box-sizing: border-box;
+  }
+
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 575px) {
+
+  /* TEXT */
+
+  /* font-size */
+
+  .jumbotron-right h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  .jumbotron-right h3,
+  .jumbotron-right .btn,
+  .start-learning-section-images-mobile a {
+    font-size: 1.5rem;
+  }
+
+  /* text - line-height */
+
+  .jumbotron-right h1,
+  h2 {
+    line-height: 2.5rem;
+  }
+
+  /* DISPLAY */
+
+  /* height */
+
+  .start-learning-section-images-mobile a {
+    height: 4.5rem;
+  }
+
+  .jumbotron-image,
+  .jumbotron-image img {
+    height: auto;
+  }
+
+  /* width */
+
+  .jumbotron-image img {
+    width: 100%;
+  }
+
+}
